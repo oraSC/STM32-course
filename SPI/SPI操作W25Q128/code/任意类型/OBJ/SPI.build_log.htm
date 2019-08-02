@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+H:\STM32-course\SPI\SPI操作W25Q128\code\任意类型\USER\SPI.uvprojx
+Project File Date:  07/30/2019
+
+<h2>Output:</h2>
+Build target 'SPI'
+compiling main.c...
+main.c(26): warning:  #177-D: variable "key" was declared but never referenced
+        u8 key;
+main.c(27): warning:  #177-D: variable "i" was declared but never referenced
+        u16 i=0;
+main.c(28): warning:  #177-D: variable "datatemp" was declared but never referenced
+        u8 datatemp[SIZE];
+main.c(29): warning:  #550-D: variable "FLASH_SIZE" was set but never used
+        u32 FLASH_SIZE;
+main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=34544 RO-data=6748 RW-data=56 ZI-data=5944  
+FromELF: creating hex file...
+"..\OBJ\SPI.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\SPI.axf" 
+Set JLink Project File to "H:\STM32-course\SPI\SPI操作W25Q128\code\任意类型\USER\JLinkSettings.ini"
+* JLink Info: Device "STM32F407ZG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link V9 compiled Mar  2 2018 17:07:57
+Hardware: V9.60
+S/N : 69641053 
+Feature(s) : RDI, GDB, FlashDL, FlashBP, JFlash 
+ 
+* JLink Info: Could not measure total IR len. TDO is constant high.
+* JLink Info: STM32F2xxx/STM32F4xxx: Can not attach to CPU. Trying connect under reset.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407ZG
+VTarget = 3.143V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 1000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
