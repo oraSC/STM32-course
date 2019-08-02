@@ -66,7 +66,7 @@ int main(void)
 			printf("FLASH写入字符型数据完成:%c\n", num_char);
 			
 			W25QXX_Write((u8*)&num_int, 10, sizeof(int));	
-			printf("FLASH写入整型数据完成:%d\n", sizeof(double));
+			printf("FLASH写入整型数据完成:%d\n", num_int);
 			
 			W25QXX_Write((u8*)&num_float, 20, sizeof(float));	
 			printf("\nFLASH写入浮点型数据完成:%f\n\n", num_float);
